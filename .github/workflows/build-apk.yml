@@ -7,6 +7,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: FudaiAuto
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -29,4 +32,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: fudai-auto-apk
-          path: app/build/outputs/apk/debug/app-debug.apk
+          path: FudaiAuto/app/build/outputs/apk/debug/app-debug.apk
