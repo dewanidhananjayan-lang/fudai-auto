@@ -17,7 +17,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="① 点击福袋挂件\n② 点击\"发表评论后参与\"\n③ 自动评论并点击\"发送\"\n④ 自动上滑切换下一个直播间"
+        android:text="① 点击福袋挂件\n② 点击「发表评论后参与」\n③ 自动评论并点击「发送」\n④ 自动上滑切换下一个直播间"
         android:textSize="15sp"
         android:lineSpacingExtra="4dp"
         android:layout_marginBottom="24dp" />
